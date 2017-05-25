@@ -1,3 +1,7 @@
+"""
+What is the largest prime factor of a given number N?
+"""
+
 t = int(input())
 
 for _ in range(t):
