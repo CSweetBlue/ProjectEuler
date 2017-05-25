@@ -1,3 +1,7 @@
+"""
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to N?
+"""
+
 t = int(input())
 
 for _ in range(t):
