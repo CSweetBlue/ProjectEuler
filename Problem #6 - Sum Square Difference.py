@@ -1,12 +1,16 @@
+"""
+Find the absolute difference between the sum of the squares of the first N natural numbers and the square of the sum.
+"""
+
 t = int(input().strip())
 
 for _ in range(t):
     n = int(input().strip())
 
-    first = sum(range(1, n + 1)) ** 2
-    second = 0
+    squareOfSum = sum(range(1, n + 1)) ** 2
+    sumOfSquares = 0
     
     for i in range(1, n + 1):
-        second += i*i
+        sumOfSquares += i*i
     
-    print(int(first - second))
+    print(int(squareOfSum - sumOfSquares))
