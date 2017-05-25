@@ -1,3 +1,7 @@
+"""
+What is the Nth prime number?
+"""
+
 t = int(input().strip())
 
 firstPrime = 2
