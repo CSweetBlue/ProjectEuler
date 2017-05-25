@@ -1,3 +1,7 @@
+"""
+Find the greatest product of K consecutive digits in the N digit number.
+"""
+
 t = int(input().strip())
 
 for _ in range(t):
