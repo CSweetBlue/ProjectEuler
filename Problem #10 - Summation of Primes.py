@@ -1,3 +1,6 @@
+"""
+Find the sum of all the primes not greater than given n.
+"""
 import bisect
 
 t = int(input().strip())
