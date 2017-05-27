@@ -1,3 +1,7 @@
+"""
+What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in a 20x20 grid?
+"""
+
 grid = []
 
 for grid_i in range(20):
