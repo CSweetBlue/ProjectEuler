@@ -1,3 +1,8 @@
+"""
+Given n, check if there exists any Pythagorean triplet for which a + b + c = n.
+Find maximum possible value of abc among all such Pythagorean triplets, If there is no such Pythagorean triplet print -1.
+"""
+
 t = int(input().strip())
 
 for _ in range(t):
